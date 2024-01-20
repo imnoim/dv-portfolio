@@ -7,11 +7,15 @@ h1 {
     font-size: 50px;
 }
 
-.orange-color{
+h2 {
+    font-size: 40px;
+}
+
+.blue-color{
     color: #0c0cfb;
 }
 
-section {
+.flexible-section {
     display: flex;
     margin-bottom: 100px;
 }
@@ -39,4 +43,28 @@ section {
     font-weight: 700;
     display: inline-block;
     margin-top: 10px;
+}
+
+.achievement-item {
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+}
+
+#achievement-item-1 {
+    border-left: 7px solid magenta;
+}
+
+#achievement-item-2 {
+    border-left: 7px solid blue;
+}
+
+.achievement h1{
+    margin-left: 70px;
+}
+
+footer p {
+    text-align: center;
 }
