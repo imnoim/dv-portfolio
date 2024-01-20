@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange-color{
+    color: #0c0cfb;
+}
+
+section {
+    display: flex;
+}
+
+.section-half {
+    width: 50%;
+    padding: 2%;
+}
+
+.section-half img {
+    width: 100%;
+}
+
+.kiss-img{
+    margin-top: 30px;
+    display: inline-block;
+}
+
+.world-cup-button {
+    text-decoration: none;
+    background: radial-gradient(circle, rgba(2, 0, 36, 1) 0%, rgba(12, 12, 251, 1) 41%, rgba(0, 212, 255, 1) 100%);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 10px;
+}
